@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7),rgb(0, 0, 0, 0.4)), url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    position: relative;
+    width: 420px;
+    height: 500px;
+    margin: 10% auto;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 270px;
+    height: 40px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 20px 10px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    background: transparent;
+    position: relative;
+    padding: 9px 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* font-weight: bolder; */
+    font-size: 17px;
+}
+#btn{
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    width: 130px;
+    height: 100%;
+    position: absolute;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.social-links{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-links img{
+    width: 30px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input-group{
+    width: 250px;
+    margin: 10px 4px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 7px 10px;
+    margin: 7px;
+    font-size: 17px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: transparent;
+}
+.check-box{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+span{
+    font-size: 15px;
+    color: #0000009f;
+}
+.submit-btn{
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 25px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: none;
+    border-radius: 30px;
+    height: auto;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}
+
+#login{
+    left: 50px;
+}
+#register{
+    left: 500px;
+}
+
+
